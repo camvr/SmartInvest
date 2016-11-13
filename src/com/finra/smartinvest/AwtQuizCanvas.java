@@ -188,9 +188,6 @@ public class AwtQuizCanvas extends Canvas {
 		answerScreen.addImage(0, 0, (int)mainFrame.getSize().getWidth(), (int)mainFrame.getSize().getHeight(), "Images/background.png");
 		aboutScreen.addImage(0, 0, (int)mainFrame.getSize().getWidth(), (int)mainFrame.getSize().getHeight(), "Images/background.png");
 		
-		// text frame Images
-		//aboutScreen.addImage((int)((mainFrame.getSize().getWidth()/2)-(), 50, (int)(mainFrame.getSize().getWidth()-60), 0, "Images/textframe.png");
-		
 		// Adding Buttons
 		mainScreen.addButton((int)(mainFrame.getSize().getWidth()/4)-(180/2), (int)(5*mainFrame.getSize().getHeight()/8)-(50/2), 180, 50, "Images/questions.png", "QUESTIONS");
 		mainScreen.addButton((int)(mainFrame.getSize().getWidth()/2)-(180/2), (int)(5*mainFrame.getSize().getHeight()/8)-(50/2), 180, 50, "Images/about.png", "ABOUT");
